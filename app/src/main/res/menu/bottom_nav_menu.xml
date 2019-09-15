@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_agregar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/agregar" />
+
+    <item
+        android:id="@+id/navigation_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/buscar" />
+
+    <item
+        android:id="@+id/navigation_eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/eliminar" />
+
+    <item
+        android:id="@+id/navigation_inventario"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/inventario" />
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AgregarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+
+            android:text="@string/add"/>
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/id"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/name"
+            tools:ignore="MissingConstraints"/>
+
+        <EditText
+            android:id="@+id/et_cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/cantidad"
+            tools:ignore="MissingConstraints"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/precio"
+            tools:ignore="MissingConstraints"
+            android:inputType="number"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BotonAgg"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="@string/Agregar"
+            android:background="@color/skyblue"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

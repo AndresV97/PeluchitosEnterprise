@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_agregar">
+
+    <fragment
+        android:id="@+id/navigation_agregar"
+        android:name="com.example.peluchitosenterprise.AgregarFragment"
+        android:label="@string/agregar"
+        tools:layout="@layout/fragment_agregar" />
+
+    <fragment
+        android:id="@+id/navigation_buscar"
+        android:name="com.example.peluchitosenterprise.BuscarFragment"
+        android:label="@string/buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+    <fragment
+        android:id="@+id/navigation_eliminar"
+        android:name="com.example.peluchitosenterprise.EliminarFragment"
+        android:label="@string/eliminar"
+        tools:layout="@layout/fragment_eliminar" />
+
+    <fragment
+        android:id="@+id/navigation_inventario"
+        android:name="com.example.peluchitosenterprise.InventarioFragment"
+        android:label="@string/inventario"
+        tools:layout="@layout/fragment_inventario" />
+</navigation>
